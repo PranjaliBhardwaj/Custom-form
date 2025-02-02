@@ -1,11 +1,9 @@
-import React from 'react';
-import AuditForm from '.components/Audit'; // Make sure this path points to the correct location of AuditForm
+import Audit from './components/Audit'; // Import the Audit component from the correct path
 
 const App = () => {
   return (
     <div>
-      {/* Your main content */}
-      <Audit />
+      <Audit /> {/* Render the Audit component */}
     </div>
   );
 };
