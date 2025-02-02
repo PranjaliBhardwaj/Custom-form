@@ -1,10 +1,11 @@
-import { useState } from 'react'; // If useState is not used at all, you can also remove this.
+import React from 'react';
+import AuditForm from '.components/Audit'; // Make sure this path points to the correct location of AuditForm
 
 const App = () => {
   return (
     <div>
-      {/* Your Audit Form component or other elements here */}
-      <AuditForm />
+      {/* Your main content */}
+      <Audit />
     </div>
   );
 };
